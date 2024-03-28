@@ -1,0 +1,102 @@
+body {
+	background-color: #52B2BF;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-size: 400%;
+	//border: 1px solid black; 
+	//padding: 10px; 
+	//margin-left: 100px;
+	//margin-right: 100px;
+}
+
+.topnav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #016064;
+	overflow: hidden;
+}
+
+.right-left {
+   display: flex;
+	font-family: arial;
+}
+
+.right-left a {
+   margin-left: 10px;
+   color: white;
+	float: right;
+	text-align: center; 
+	padding: 14px 16px; 
+	text-decoration: none;
+	font-size: 20px;
+	border-left: 1px solid white;
+}
+
+.topnav a:hover {
+	background-color: white; 
+	color: #016064;
+}
+
+.custom-text {
+	font-color: white;
+	font-family: arial;
+	font-size: 22px;
+	text-align: center
+	margin-right: auto;
+}
+
+label1 {
+	font-family: arial;
+	color: white;
+	font-size: 250%;
+	margin-left: 80px;
+}
+
+select {
+  	border: none;
+  	padding: 10px 20px;
+ 	border-radius: 5px;
+	font-size: 150%;
+}
+
+select:focus {
+  	outline: none;
+}
+
+input {
+	font-size: 130%;
+}
+
+button {
+	margin-left: 75px;
+	margin-top: 15px;
+	font-size: 150%;
+}
+
+p {
+	color: white;
+	font-family: arial;
+	margin-left: 80px;
+	font-size: 250%;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+   background-color: #016064;
+   color: #555; 
+   padding: 20px;
+   text-align: center;
+	font-size: 50%;
+	position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+}

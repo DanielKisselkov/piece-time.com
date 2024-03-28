@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head id="musicForm">
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+		
+	</head>
+	<body>
+	<main>
+	
+		<div class="topnav">
+				<p class="custom-text">Calculate the duration of your piece</p>
+			
+			<div class="right-left">	
+				<a href="#home">Home</a>
+				<a href="#contact">Copyright</a>
+			</div>
+		</div>
+		
+	<section id="home">	
+		
+		<h1>How long does your piece last?</h1>
+		
+			<label1 for="timeSignature">Select time signature:</label1>
+			<select name="timeSignature" id="timeSignature">
+  				<option value="2/2">2/2</option>
+  				<option value="3/2">3/2</option>
+  				<option value="2/4">2/4</option>
+				<option value="3/4">3/4</option>
+  				<option value="4/4" selected>4/4</option>
+				<option value="5/4">5/4</option>
+				<option value="3/8">3/8</option>
+				<option value="5/8">5/8</option>
+				<option value="6/8">6/8</option>
+				<option value="7/8">7/8</option>
+				<option value="12/16">12/16</option>
+			</select>
+			<br>	
+				
+			<label1 for="bars">Write number of bars:</label1>
+  			<input type="number" id="bars" min="1" max="99999" placeholder="100""> 
+			<br>
+		
+			<label1 for="bpm">Write down the BPM :</label1>
+			<input type="number" id="bpm" min="1" max="1050" value="100">
+			<br>
+			
+		</form>
+		
+		<button type="button" onclick="calculateDuration()">Calculate</button>
+		
+		<p id="result"></p>
+		
+	</section>	
+		
+	</main>
+	
+	<section id="contact">	
+		
+		<footer class="footer">
+  			<p>&copy; Copyright by Daniel Kisselkov 2024. All rights reserved.</p>
+		</footer>
+		
+	</section>	
+		
+	</body>
+</html>
